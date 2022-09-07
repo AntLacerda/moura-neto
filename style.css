@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/*Homepage______________________*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+:target{
+    scroll-margin-top: .8em;
+}
+
+.homepage{
+    background-image: url(./img/background_home.jpg);
+    background-size: 1550px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.sumario{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-around;
+}
+
+.sumario a{
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+
+.sumario a:hover{
+    color: #a69172;
+    transition: 500ms;
+}
+
+.sumario li{
+    margin-left: 100px;
+}
+
+.alinhamento_linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.texto_central_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 225px 150px 100px 150px;
+    text-align: center;
+}
+
+.texto_central_home h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.texto_central_home p{
+    font-family: 'Open Sans', sans-serif;
+    color: #a69172;
+    font-weight: bold;
+}
+
+.botao_home{
+    padding: 20px;
+    border: 3px solid white;
+    width: 105px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 100px;
+}
+
+.botao_home a{
+    color: white;
+    text-decoration: none;
+}
+
+.alinhamento_coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Homepage______________________*/
+
+/*Quem somos nós________________*/
+
+.mockup{
+    width: 600px;
+}
+
+.alinhamento_pag_02{
+    display: flex;
+    flex-direction: row;
+    height: 691px;
+}
+
+.texto_pag_02 h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 200px 40px 40px 40px;
+    font-size: 50px;
+}
+
+.texto_pag_02 p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 40px 0px 40px;
+    font-size: 20px;
+
+}
+
+/*Quem somos nós________________*/
+
+/*Areas de atuação________________*/
+
+.area_de_atuacao{
+    background-color: #263a43;
+}
+
+.container_atuacao{
+    background-color: #334954;
+    height: 180px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.container_atuacao h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.container_atuacao p{
+    font-size: 14px;
+    margin: 10px;
+    line-height: 18px;
+}
+
+.img_pag_03{
+    width: 50px;
+}
+
+.titulo_branco{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.alinhamento_pag_03{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/*Areas de atuação________________*/
+
+/*Nossa equipe________________*/
+
+.alinhamento_pag_04{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 691px;
+}
+
+.titulo_pag_04{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.imagem_pag_04{
+    width: 600px;
+}
+
+.imagem_pag_04_01{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.texto_pag_04{
+    margin: 200px 200px 40px 40px;
+}
+
+.texto_pag_04 h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto_pag_04 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.texto_pag_04_01{
+    margin: 300px 200px 40px 40px;
+}
+
+.texto_pag_04_01 h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto_pag_04_01 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.assinatura{
+    width: 200px;
+    margin-left: 200px;
+}
+
+/*Nossa equipe________________*/
+
+/*Contato_____________________*/
+
+.contato{
+    background-image: url(./img/background_contato.jpg);
+    margin-top: 152px;
+}
+
+.alinhamento_contato_01{
+    padding: 20px 20px 60px 20px;
+}
+
+.titulo_contato{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 40px;
+}
+
+.alinhamento_contato_02{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.alinhamento_contato_02 label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.alinhamento_contato_02 input{
+    width: 270px;
+    height: 20px;
+    background-color:#334954;
+    border: solid 3px #a69172;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.alinhamento_contato_03{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_01{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.alinhamento_contato_03{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.alinhamento_contato_04{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhamento_contato_05{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_contato_pt2 p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 380px;
+    font-weight: lighter;
+}
+
+.texto_contato_pt2 textarea{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: #a69172 solid 3px;
+    border-radius: 5px;
+    background-color: #334954;
+    font-weight: lighter;
+}
+
+.alinhamento_final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botao_submit{
+    width: 360px;
+    border: #a69172 solid 3px;
+    background-color: #334954;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
