@@ -1,0 +1,113 @@
+@media (max-width: 600px){
+    .alinhamento_linha{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sumario{
+        justify-content: space-between;
+    }
+
+    .sumario a li{
+        
+        margin-top: 10px;
+    }
+
+    .sumario a:first-child{
+        display: none;
+    }
+
+    .texto_central_home h2{
+        font-size: 40px;
+    }
+
+    .texto_central_home{
+        margin: 100px 30px 50px 30px;
+    }
+
+    .botao_home{
+        margin-bottom: 155px;
+    }
+
+    .mockup{
+        display: none;
+    }
+
+    .texto_pag_02 h2{
+        margin: 40px;
+        font-size: 40px;
+    }
+
+    .titulo_branco{
+        font-size: 30px;
+    }
+
+    .container_atuacao{
+        margin: 0px 20px 20px;
+    }
+
+    .texto_pag_04{
+        margin: 40px;
+    }
+
+    .alinhamento_pag_04{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imagem_pag_04{
+        width: 375px;
+    }
+
+    .assinatura{
+        margin-left: 80px;
+    }
+
+    .imagem_pag_04_01{
+        display: none;
+    }
+
+    .texto_pag_04_01{
+        margin: 40px;
+    }
+
+    .imagem_pag_04_01_mobile{
+        width: 375px;
+        display: inline;
+    }
+
+    .contato{
+        margin-top: -5px;
+    }
+
+    .alinhamento_final{
+        flex-direction: column;
+    }
+
+    .alinhamento_contato_01{
+        padding: 20px 20px 60px 0px;
+    }
+
+    .texto_contato_pt2 p{
+        width: 300px;
+    }
+
+    .texto_contato_pt2 textarea{
+        width: 285px;
+    }
+
+    .botao_submit{
+        width: 296px;
+    }
+
+    .sumario li{
+        margin-left: 35px;
+    }
+
+    #gamb{
+        margin-left: 2px;
+    }
+
+    
+}
