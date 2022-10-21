@@ -188,11 +188,13 @@ html{
 }
 
 .titulo_pag_04{
+    position: relative;
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 6em;
     font-weight: bold;
     margin-top: 40px;
     margin-left: 40px;
+    text-decoration: underline black;
 }
 
 .imagem_pag_04{
@@ -205,7 +207,7 @@ html{
 }
 
 .texto_pag_04{
-    margin: 200px 200px 40px 40px;
+    margin: 100px 200px 40px 40px;
 }
 
 .texto_pag_04 h2{
@@ -286,10 +288,11 @@ html{
     width: 270px;
     height: 20px;
     background-color:#334954;
-    border: solid 3px #a69172;
+    border: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
+    
 }
 
 .alinhamento_contato_03{
@@ -336,10 +339,18 @@ html{
     font-family: 'Open Sans', sans-serif;
     margin-left: 40px;
     margin-top: 20px;
-    border: #a69172 solid 3px;
+    border: none;
     border-radius: 5px;
     background-color: #334954;
     font-weight: lighter;
+    padding: 10px;
+}
+
+.texto_contato_pt2 textarea:focus,
+.alinhamento_contato_02 input:focus,
+.botao_submit:active{
+    border-color: #a69172;
+
 }
 
 .alinhamento_final{
@@ -350,7 +361,7 @@ html{
 
 .botao_submit{
     width: 360px;
-    border: #a69172 solid 3px;
+    border: none;
     background-color: #334954;
     color: white;
     height: 30px;
